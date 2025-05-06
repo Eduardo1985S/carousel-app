@@ -26,7 +26,7 @@ const carouselData = [
 
 export default function Home() {
     return (
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
             <StatusBar barStyle="dark-content" backgroundColor="#F9F9F9" />
             <ScrollView contentContainerStyle={{ paddingBottom: 20 }}>
                 <View style={styles.header}>
@@ -48,7 +48,7 @@ export default function Home() {
                     </Text>
                 </View>
             </ScrollView>
-        </SafeAreaView>
+        </View>
     );
 }
 
